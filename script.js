@@ -1,3 +1,6 @@
+// Project Name  - EMD Music 
+// Author - Himanshu Sharma
+// Version - v1.0
 function playSound(e) {
 	const audio = window.document.querySelector(`audio[data-key="${e.keyCode}"]`);
 	const key = window.document.querySelector(`.key[data-key="${e.keyCode}"]`);
